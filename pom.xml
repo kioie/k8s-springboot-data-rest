@@ -83,12 +83,16 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
             <plugin>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <version>2.0</version>
+            </plugin>
+            <plugin>
                 <groupId>com.google.cloud.tools</groupId>
                 <artifactId>appengine-maven-plugin</artifactId>
                 <version>2.2.0</version>
                 <configuration>
-                    <deploy.projectId>mystical-ally-277821</deploy.projectId>
-                    <deploy.version>auto</deploy.version>
+                    <deploy.projectId>gcp-migration-project-278408</deploy.projectId>
+                    <deploy.version>1</deploy.version>
                 </configuration>
             </plugin>
         </plugins>
